@@ -1,0 +1,15 @@
+name = "zdwig-vpn-api"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+# Публічні (не секретні) змінні.
+# ALLOWED_ORIGIN: після деплою GitHub Pages вкажіть точний origin,
+# напр. "https://yourname.github.io" (без слеша в кінці).
+[vars]
+ALLOWED_ORIGIN = "*"
+DEMO_MODE = "0"
+
+# Секрети додаються командами (НЕ зберігайте їх у цьому файлі):
+#   npx wrangler secret put BOT_TOKEN
+#   npx wrangler secret put VPN_API_KEY
+#   npx wrangler secret put VPN_API_URL

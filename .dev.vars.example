@@ -1,0 +1,8 @@
+# Скопируйте этот файл в .dev.vars для локальной разработки Worker.
+# .dev.vars добавлен в .gitignore — НЕ коммитьте его.
+BOT_TOKEN="PASTE_BOT_TOKEN_HERE"
+VPN_API_KEY="PASTE_VPN_API_KEY_HERE"
+# Без VPN_API_URL Worker выдаёт демо-ключ:
+# VPN_API_URL="https://api.your-vpn-provider.example"
+ALLOWED_ORIGIN="http://localhost:5173"
+DEMO_MODE="1"
